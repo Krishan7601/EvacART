@@ -23,8 +23,16 @@ public class EvacuationAnalysis implements DataObserver {
 
 	}
 	
-	public void modelSavedScenarios() {
+	public void iterateAllStrategies() {
 		Container container = new ScenarioContainer();
 		Iterator iterator = container.getIterator();
+	}
+	
+	public void compareStrategies() {
+		
+	}
+	
+	public void generateReport(Collection<EvacuationModel> evacModels) {
+		
 	}
 }

@@ -22,7 +22,7 @@ public class EvacuationModel {
 		return this;
 	}
 
-	public void runSimulation(ScenarioBuilder scenario) {
+	public static void runSimulation(ScenarioBuilder scenario) {
 
 	}
 }

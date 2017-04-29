@@ -22,4 +22,7 @@ public class Vizualization implements DataObserver {
 		
 	}
 
+	public void changeModel(EvacuationModel evacuationModel) {
+		
+	}
 }

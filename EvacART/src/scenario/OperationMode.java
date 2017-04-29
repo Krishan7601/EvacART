@@ -1,6 +1,7 @@
 package scenario;
 
 public enum OperationMode {
-	TRAINING,
+	LEARNING_HISTORIC,
+	TRAINING_GENERATE,
 	LIVE_RESPONSE;
 }

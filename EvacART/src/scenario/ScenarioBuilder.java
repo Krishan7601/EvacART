@@ -6,7 +6,7 @@ import java.util.Collection;
 import egressStrategy.EgressBehavior;
 import modelRepository.AbstractModel;
 
-public class ScenarioBuilder {
+public class ScenarioBuilder implements EgressBehavior {
 	private OperationMode operationMode;
 	
 	private EgressBehavior egressBehavior;
@@ -27,5 +27,11 @@ public class ScenarioBuilder {
 	
 	public void handleSaveScenario() {
 		scenarioManager.saveScenario(this);
+	}
+
+	@Override
+	public void agentMovement() {
+		// TODO Auto-generated method stub
+		
 	}
 }
